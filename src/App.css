@@ -15,4 +15,48 @@ iframe {
 
 button {
   display: block;
+
+  margin: 10px;
+}
+
+/*
+    Name:           ph-buttons
+    Description: 	Pixcil Hub Buttons
+    Author: 		   Pixcils®
+    Version: 	  	1.0
+*/
+
+/*Main button class
+==========================*/
+button {
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-style: normal;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 16px;
+}
+/*Blue
+==========================*/
+button {
+  border-color: #326e99;
+  background-color: #3f8abf;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background-color: #397cac;
+  border-color: #326e99;
 }
