@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "rsbuild build",
-    "dev": "IS_FRAME=true rsbuild dev --open",
+    "dev:frame": "IS_FRAME=true rsbuild dev --open",
+    "dev": "rsbuild dev --open",
     "preview": "rsbuild preview"
   },
   "dependencies": {

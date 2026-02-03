@@ -8,6 +8,7 @@
     "name": "Cyan",
     "url": "http://yourawesomeapp.com"
   },
+  "origin": "app://kaios-lite-app.netlify.app",
   "locales": {
     "en-US": {
       "name": "KaiOS Lite App",

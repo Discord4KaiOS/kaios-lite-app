@@ -31,4 +31,5 @@ const api = {
   },
 } as const;
 
+export { api };
 export type Exposed = typeof api;
