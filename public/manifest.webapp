@@ -8,6 +8,9 @@
     "name": "Cyan",
     "url": "http://yourawesomeapp.com"
   },
+  "permissions": {
+    "systemXHR": {}
+  },
   "origin": "app://kaios-lite-app.netlify.app",
   "locales": {
     "en-US": {
