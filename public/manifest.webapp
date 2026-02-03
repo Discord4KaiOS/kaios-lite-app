@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "KaiOS Lite App",
+  "description": "A file simple example manifest.webapp",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Cyan",
+    "url": "http://yourawesomeapp.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "KaiOS Lite App",
+      "subtitle": "Short description for the user",
+      "description": "Brief description of your app"
+    }
+  },
+  "cursor": true,
+  "default_locale": "en-US"
+}

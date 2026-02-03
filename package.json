@@ -1,0 +1,22 @@
+{
+  "name": "kaios-lite-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "IS_FRAME=true rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "comlink": "^4.4.2",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/plugin-babel": "^1.0.6",
+    "@rsbuild/plugin-solid": "^1.0.6",
+    "typescript": "^5.9.3",
+    "@types/node": "^25.2.0"
+  }
+}
